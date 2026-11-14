@@ -1,23 +1,23 @@
-<div align="center">
-
-<img src="./assets/banner.svg" alt="Awesome QA Team Role-Based Access Control (RBAC) Banner" width="100%" />
-
-# 🛡️ Awesome QA Team Role-Based Access Control (RBAC) 🔐
-
-> A curated list of top **Role-Based Access Control (RBAC)** platforms, **Identity and Access Management (IAM)** systems, and open-source authorization engines tailored for QA teams, testing environments, permissions isolation, and least-privilege security.
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome QA Team Role-Based Access Control (RBAC) Banner" width="100%" />
+</p>
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=social" alt="GitHub stars" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=social" alt="GitHub forks" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
-🌟 **Star this repository if you find it helpful for architecting QA environments and access security!** 🌟
+---
 
-</div>
+# 🛡️ Awesome QA Team Role-Based Access Control (RBAC) 🚀
+
+> ⚡ **A curated directory of premier Role-Based Access Control (RBAC) and Identity & Access Management (IAM) platforms designed for modern Quality Assurance (QA) and software engineering teams.** Covering SaaS enterprise solutions, fine-grained authorization (FGA) engines, and open-source self-hosted systems to enforce least privilege, tenant isolation, and secure test lab operations.
+>
+> 🌟 *Star this repository to bookmark the latest tools in access control, test environment governance, and automated IAM policies!* 🌟
 
 ---
 
@@ -25,121 +25,233 @@
 
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [SaaS Products Detailed Breakdown](#-saas-products-detailed-breakdown)
+  - [🏢 Enterprise SaaS Matrix (Sorted by Valuation & Revenue)](#-enterprise-saas-matrix-sorted-by-valuation--revenue)
+  - [🔍 Deep-Dive SaaS Breakdown](#-deep-dive-saas-breakdown)
 - [🟩 Open-Source Software](#-open-source-software)
-- [📊 Comparison Matrix at a Glance](#-comparison-matrix-at-a-glance)
-- [📈 Star History](#-star-history)
-- [💖 Support](#-support)
+  - [📊 Open-Source Comparison (Sorted by Star Counts)](#-open-source-comparison-sorted-by-star-counts)
+  - [🛠️ Detailed Open-Source Showcase](#-detailed-open-source-showcase)
+- [🎯 QA Team Architectural Decision Framework](#-qa-team-architectural-decision-framework)
 - [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsoring](#-support--sponsoring)
+- [📈 Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
 
 ## 🌐 Sector Overview & Market Dynamics
 
-The global **Identity and Access Management (IAM)** market is estimated at **$22.9B – $26.8B in 2025** (scaling toward $60B+ by the mid-2030s), while the dedicated **Role-Based Access Control (RBAC)** sub-segment accounts for approximately **$11.6B – $12.5B**. The sector is **moderately fragmented** rather than winner-take-all: while enterprise titans (Microsoft, CyberArk, Okta) command dominant market share in enterprise-wide single sign-on and governance, an active ecosystem of specialized testing clouds (e.g., BrowserStack) and modern authorization standards (Casbin, OPA, OpenFGA) thrive by addressing granular workload-level and developer-centric authorization needs.
+The global **Identity & Access Management (IAM) and Cloud Authorization Market** is estimated at **$16.8 Billion in 2024** and projected to surge past **$38.5 Billion by 2030**, reflecting a compound annual growth rate (CAGR) of **~14.2%**.
+
+From a competitive standpoint, the identity sector demonstrates **moderate market concentration** at the core workforce directory layer (heavily dominated by hyperscalers like Microsoft Entra ID and cloud-native titans such as Okta and CyberArk), but remains **highly fragmented** in the emerging domain of **Fine-Grained Authorization (FGA)**, Relationship-Based Access Control (ReBAC), and specialized test orchestration infrastructure. Because QA environments mandate granular project-level overrides, ephemeral testing tokens, and multi-tenant test bed segregation, no single vendor captures a "winner-take-all" position, driving widespread adoption of hybrid architectures pairing enterprise SSO with open-source authorization engines.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Below is the structured overview of commercial and hosted SaaS identity, test cloud, and RBAC solutions sorted in descending order by enterprise company size (market valuation / revenue).
+Commercial, cloud-hosted RBAC and Identity platforms enabling rapid onboarding, SSO federation, compliance audits, and role-scoped permissions for testing fleets.
 
-| Product 🏷️ | Company Size (Valuation / Revenue) 🏢 | Starting Price 💵 | Free Tier / Free Trial Limits ⏳ | Key Capabilities for QA Teams 🎯 |
-|:---|:---|:---|:---|:---|
-| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | **$3.1T+** Market Cap (Microsoft) | **$7.00 / user / month** (P1 tier, billed annually) | **Permanent Free Tier** (Included with Azure/M365 accounts; basic cloud SSO, tenant MFA defaults, and user directory; CIAM offers 50,000 MAUs free/mo) | Scoped access over app registrations, test tenant administration units, and PIM (Privileged Identity Management) just-in-time test access. |
-| **[CyberArk Identity](https://www.cyberark.com/products/identity-management/)** | **$21.1B** Acquisition Valuation (~$1.36B ARR) | **~$2.00 – $5.00 / user / month** (Core SSO/MFA entry tier) | **14-day free trial** (Evaluation sandbox / lab tenant with core workforce SSO, MFA, and sample policy assignments) | Dynamic JavaScript-based attribute rules to automatically assign QA engineers to staging environments based on team metadata. |
-| **[Okta](https://www.okta.com/)** | **~$15.3B** Market Cap (~$2.6B ARR) | **$6.00 / user / month** (Workforce Starter; $1,500/year minimum contract) | **30-day free trial** (Full platform evaluation capped at 10 active testing users with SSO, MFA, and Universal Directory) | Scoped custom admin roles with granular permission bundling (`okta.apps.manage`) to isolate test automation from production apps. |
-| **[BrowserStack](https://www.browserstack.com/)** | **~$4.0B** Valuation (~$225M ARR) | **$29.00 / user / month** (Live manual testing, billed annually) | **Free Trial** (30 minutes of Live interactive cross-browser testing + 100 minutes of Automate grid execution) | Native **Project API** with project-scoped roles (Admin, User, Viewer), team-level role inheritance, and test environment isolation. |
-| **[JumpCloud](https://jumpcloud.com/)** | **~$2.6B** Valuation (~$200M ARR) | **$9.00 / user / month** (Device Management tier, billed annually) | **30-day free trial** (Full-featured access to cloud directory, device management, and SSO; legacy accounts retain 10 users / 10 devices free) | Cloud directory supporting up to 20 custom admin roles to grant QA testers device control without exposing identity administration. |
-| **[Auth0](https://auth0.com/)** | **$6.5B** (Acquired by Okta; ~$400M+ ARR unit) | **$35.00 / month** (B2C Essentials, 500 MAUs) / **$150.00 / month** (B2B Essentials) | **Permanent Free Tier** (Up to **25,000 Monthly Active Users (MAUs)**, unlimited social logins, 5 organizations, and custom domains) | API-level RBAC tokens enforcing scopes on automated testing scripts, mock endpoints, and QA microservice test suites. |
-| **[OneLogin](https://www.onelogin.com/)** | **~$500M** Valuation (One Identity; ~$70M ARR) | **$3.00 / user / month** (Basic tier, billed annually) | **30-day free trial** (Full-featured trial covering SSO, MFA, app catalog connectors, and directory attribute mapping) | App-centric role bundling with attribute-based automated provisioning (e.g., automatically assign test suites to `Department = QA`). |
+### 🏢 Enterprise SaaS Matrix (Sorted by Valuation & Revenue)
+
+| # | Provider / Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limit | QA Role & Scoping Capabilities | Primary Target |
+|:---:|:---|:---|:---|:---|:---|:---|
+| 1 | **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | **~$3.1 Trillion** *(Market Cap / ~$245B Rev)* | **$6.00** / user / mo *(Entra ID P1)* / **$9.00** / user / mo *(P2)* | **Free forever plan** included with Azure/M365 (up to 50,000 directory objects, core SSO & user management); **30-day free trial** for P1/P2 (100 licenses) | Tenant, administrative unit, & object-level scoping (groups, enterprise apps, app registrations); PIM just-in-time access | 🏢 Microsoft enterprise stacks & cross-team QA labs |
+| 2 | **[Okta](https://www.okta.com/)** | **~$13.5 Billion** *(Market Cap / ~$2.45B Rev)* | **$2.00** / user / mo *(Single Sign-On)* + **$3.00** / user / mo *(Universal Directory)* | **Free forever** Developer Edition (up to 7,500 monthly active users [MAUs], unlimited apps); **30-day free trial** for Workforce Cloud (100 users) | App- and group-scoped admin roles, custom permission bundles (`okta.apps.manage`), test environment isolation | 🏢 Enterprise IAM & distributed QA permissions |
+| 3 | **[CyberArk Identity](https://www.cyberark.com/products/identity-management/)** | **~$12.5 Billion** *(Market Cap / ~$850M Rev)* | **$2.00** / user / mo *(Single Sign-On)* / **$4.00** / user / mo *(Adaptive MFA)* | **30-day free trial** with full access to CyberArk Identity features for up to 100 users across integrated SaaS applications | Dynamic attribute-driven roles (custom JavaScript logic), automated tester environment provisioning, PAM integration | 🔒 High-security QA teams & PAM-governed fleets |
+| 4 | **[Auth0 by Okta](https://auth0.com/)** | **~$6.5 Billion** *(Acquisition Valuation by Okta)* | **$35.00** / mo *(B2C Essentials, 1,000 MAU)* / **$240.00** / mo *(B2B Professional)* | **Free forever plan** up to 7,500 monthly active users (MAUs), unlimited logins, 3 social IdPs, and full RBAC API support | API audience scope gating, JWT role claim injections, programmatic role validation for automated test runners | 💻 Developers & QA test automation engineers |
+| 5 | **[OneLogin](https://www.onelogin.com/)** *(One Identity)* | **~$5.4 Billion** *(Parent Quest Software / Clearlake)* | **$2.00** / user / mo *(Workforce SSO)* / **$4.00** / user / mo *(Advanced Directory & MFA)* | **30-day free trial** with unlimited users, 3 app connectors, desktop SSO, and multi-factor authentication | Directory attribute mapping rules (e.g. `Department == "QA"`), role-to-app catalog bundling, automated offboarding | ⚙️ Mid-market IT & automated QA app assignment |
+| 6 | **[BrowserStack](https://www.browserstack.com/)** | **~$4.0 Billion** *(Series B Valuation)* | **$29.00** / user / mo *(Live Desktop, billed annually at $348/yr)* | **Free trial**: 30 minutes total interactive manual testing (1 min/session) + 100 minutes automated test runs | Native Project API role overrides (Admin, User, Viewer), project team isolation, bulk role synchronization | 🧪 Cross-browser testing teams & QA device grids |
+| 7 | **[JumpCloud](https://jumpcloud.com/)** | **~$2.6 Billion** *(Series F Valuation)* | **$2.00** / user / mo *(Core Device)* / **$7.00** / user / mo *(Platform Identity)* | **Free forever plan** for up to 10 users and 10 devices with all platform features included + 10 days premium support | Custom admin roles (up to 20 roles) spanning access, application, device, and command execution permissions | 🖥️ SMB & hybrid QA labs managing IDs + devices |
 
 ---
 
-### 🔍 SaaS Products Detailed Breakdown
+### 🔍 Deep-Dive SaaS Breakdown
 
-#### 1. 🌐 [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)
-- **Primary Type:** Enterprise Cloud Identity & Access Platform 🏢
-- **RBAC Model:** Scoped directory roles, Administrative Units (AUs), and Azure RBAC assignments.
-- **QA Team Utility:** QA teams often require elevated rights in development sandboxes without compromising organizational security. Entra ID provides built-in and custom roles scoped strictly to specific app registrations, groups, or administrative units. Combined with **Privileged Identity Management (PIM)**, testers can request time-bound, just-in-time access for executing compliance tests.
+#### 1. 🪟 [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)
+- **Role Scoping:** Granular permissions assignable at Tenant, Administrative Unit, or specific resource scopes (Enterprise Apps, App Registrations, Security Groups).
+- **QA Impact:** Enables QA managers to grant test engineers elevated roles exclusively for specific application registrations or test staging environments without granting broad subscription permissions.
+- **Key Security Feature:** Privileged Identity Management (PIM) with time-bound, just-in-time role activation for test runs.
 
-#### 2. 🔐 [CyberArk Identity](https://www.cyberark.com/products/identity-management/)
-- **Primary Type:** Identity Security & Dynamic Workforce Access 🛡️
-- **RBAC Model:** Role-based policy assignment with dynamic membership scripts.
-- **QA Team Utility:** QA team members frequently rotate across projects. CyberArk Identity enables dynamic roles powered by JavaScript logic that evaluate user attributes (such as department, team tag, or test run assignment) to automatically grant access to specific testing portals and revoke it when tests conclude.
+#### 2. 🔑 [Okta](https://www.okta.com/)
+- **Role Scoping:** Predefined standard administrative roles (Org Admin, App Admin, Group Admin) and fine-grained Custom Roles with individual permission assignments.
+- **QA Impact:** Permits scoped delegation so test leads manage only QA team group memberships and specific test API configurations.
+- **Key Security Feature:** Integration with CI/CD deployment pipelines to provision test user personas dynamically.
 
-#### 3. 🎯 [Okta Workforce Identity Cloud](https://www.okta.com/)
-- **Primary Type:** Enterprise Workforce IAM & Cloud Federation ☁️
-- **RBAC Model:** Standard and granular custom administrative roles with resource sets.
-- **QA Team Utility:** Provides custom admin roles that decouple administrative privileges. Testers can be granted permissions like `okta.apps.manage` or `okta.users.appAssignment.manage` restricted strictly to pre-production applications, preventing accidental cross-tenant disruption.
+#### 3. 🛡️ [CyberArk Identity](https://www.cyberark.com/products/identity-management/)
+- **Role Scoping:** Roles act as the fundamental container for apps, policies, and privileges. Supports static roles and dynamic JavaScript-evaluated roles.
+- **QA Impact:** Dynamic roles automatically provision test engineers into appropriate test suites based on active sprint tags or team attributes.
+- **Key Security Feature:** Built-in integration with Privileged Access Management (PAM) vaulting for test credential rotations.
 
-#### 4. 🧪 [BrowserStack Role-Based Access Control](https://www.browserstack.com/)
-- **Primary Type:** QA & Test Execution Cloud with Project Governance 🚀
-- **RBAC Model:** Hierarchical project-scoped RBAC with team inheritance.
-- **QA Team Utility:** Purpose-built for testing teams. Through BrowserStack's **Project API**, QA leaders can assign granular roles (Admin, User, Viewer) per project. Teams inherit access permissions while maintaining isolated execution environments, preventing external contractors or individual QA squads from accessing confidential builds.
+#### 4. ⚡ [Auth0 by Okta](https://auth0.com/)
+- **Role Scoping:** API-level authorization and role assignments mapped directly into OpenID Connect (OIDC) JWT claims (`scope` and custom permission claims).
+- **QA Impact:** Excellent for validating automated API test suites where headless microservices must prove specific role memberships before interacting with mock endpoints.
+- **Key Security Feature:** Machine-to-Machine (M2M) token issuance with configurable access grants for automated test runners.
 
-#### 5. 💻 [JumpCloud](https://jumpcloud.com/)
-- **Primary Type:** Cloud Directory Platform & Unified Device Management 🖥️
-- **RBAC Model:** Category-based custom admin permissions (up to 20 roles).
-- **QA Team Utility:** Allows organizations to construct dedicated "QA Tester" admin roles that grant rights to manage test devices, deploy mobile configurations, and run diagnostic commands without providing visibility into corporate credentials or directory root objects.
+#### 5. 🔄 [OneLogin](https://www.onelogin.com/)
+- **Role Scoping:** Application-centric roles populated via deterministic directory attribute mapping rules.
+- **QA Impact:** Automatically provisions access to bug tracking, device clouds, and internal test dashboards as soon as a QA team member joins the directory.
+- **Key Security Feature:** SmartFactor Authentication with risk-based step-up access for sensitive staging environments.
 
-#### 6. 🔑 [Auth0](https://auth0.com/)
-- **Primary Type:** Developer-Centric Identity & Token-Based Authorization ⚡
-- **RBAC Model:** API-level RBAC, custom claims, and scopes validation.
-- **QA Team Utility:** Enables engineering teams to test role-restricted API endpoints. Testers and test automation pipelines can generate tokens containing specific scopes to rigorously validate that forbidden actions produce HTTP 403 Forbidden responses.
+#### 6. 📱 [BrowserStack Project API & RBAC](https://www.browserstack.com/)
+- **Role Scoping:** Explicit project-level role overrides (Admin, User, Viewer) that override global organization roles for targeted team isolation.
+- **QA Impact:** Purpose-built for QA testing infrastructure. Lets separate test pods run isolated automated and manual test runs on shared cloud devices without data bleed.
+- **Key Security Feature:** Programmatic bulk role updates via the Project REST API.
 
-#### 7. 🔗 [OneLogin](https://www.onelogin.com/)
-- **Primary Type:** Cloud IAM with Application-Centric Provisioning 📦
-- **RBAC Model:** App-bundle roles with directory rule mappings.
-- **QA Team Utility:** Groups all testing utilities (Bug tracker, CI/CD runners, staging portals, device farms) into a cohesive "QA Environment" role that is automatically populated via SAML/SCIM directory mappings when new test engineers join.
+#### 7. 💻 [JumpCloud](https://jumpcloud.com/)
+- **Role Scoping:** Custom admin roles dividing permissions between Access Management, Application Management, Core Directory, and Device Management.
+- **QA Impact:** Enables QA teams to manage dedicated physical and virtual test devices (macOS, Windows, Linux) and execute command scripts without granting directory admin rights.
+- **Key Security Feature:** Cross-OS device-level policy enforcement paired with cloud RADIUS and LDAP endpoints.
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted and community-driven access control solutions, authorization engines, and IAM suites. Sorted in descending order by GitHub stargazer count.
+Self-hosted, transparent, and community-audited authorization frameworks. These tools span **full IAM platforms with SSO federation**, **high-speed policy engines (FGA/Zanzibar)**, **reverse proxies**, and **embeddable access libraries**.
 
-| Project & Repo 📦 | Stars ⭐ | Stack / Tech ⚙️ | License 📜 | Authorization Paradigm 💡 | Best For QA Teams 🎯 |
-|:---|:---:|:---|:---:|:---|:---|
-| **[Keycloak](https://github.com/keycloak/keycloak)** | [![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java, Quarkus | Apache-2.0 | Full IAM, Realm/Client RBAC, OIDC/SAML | Complete self-hosted IAM stack for staging environments with LDAP/AD federation and user simulation. |
-| **[Authelia](https://github.com/authelia/authelia)** | [![GitHub stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) | Go, TypeScript | Apache-2.0 | Forward-Auth RBAC, 2FA/MFA, OIDC Provider | Protecting test environment reverse proxies (Nginx/Traefik) with single sign-on and 2FA gating. |
-| **[Casbin](https://github.com/casbin/casbin)** | [![GitHub stars](https://img.shields.io/github/stars/casbin/casbin?style=social&color=white)](https://github.com/casbin/casbin/stargazers) | Go, Java, Python, Node, C++, Rust | Apache-2.0 | Multi-model RBAC, ABAC, ACL, RESTful | Embedding flexible model-driven access control directly into custom test tools and internal QA harnesses. |
-| **[ZITADEL](https://github.com/zitadel/zitadel)** | [![GitHub stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers) | Go, Next.js | Apache-2.0 | Multi-tenant RBAC, OIDC, Passkeys, Audit Trails | Cloud-native multi-tenant identity testing with instant self-service organization and role isolation. |
-| **[Casdoor](https://github.com/casdoor/casdoor)** | [![GitHub stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers) | Go, React | Apache-2.0 | UI-first Casbin RBAC, OAuth2/OIDC, SAML | Providing a full web management UI on top of Casbin for testers and QA administrators. |
-| **[Ory Kratos](https://github.com/ory/kratos)** | [![GitHub stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers) | Go | Apache-2.0 | Headless Identity, Account Management | Headless authentication testing where QA teams validate customized registration and login UX flows. |
-| **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Go, Rego | Apache-2.0 | Policy-as-Code (RBAC, ABAC, Kubernetes admission) | Automated policy regression testing and enforcing test cluster admission rules across microservices. |
-| **[OpenFGA](https://github.com/openfga/openfga)** | [![GitHub stars](https://img.shields.io/github/stars/openfga/openfga?style=social&color=white)](https://github.com/openfga/openfga/stargazers) | Go | Apache-2.0 | Fine-Grained Authorization (Zanzibar-style ReBAC) | Modeling complex relationship-based access controls (e.g. project collaborators, QA test run ownership). |
-| **[Permify](https://github.com/Permify/permify)** | [![GitHub stars](https://img.shields.io/github/stars/Permify/permify?style=social&color=white)](https://github.com/Permify/permify/stargazers) | Go | Apache-2.0 | Zanzibar ReBAC & Multi-tenant RBAC | Validating distributed authorization policies across complex microservice test topologies. |
-| **[Ory Keto](https://github.com/ory/keto)** | [![GitHub stars](https://img.shields.io/github/stars/ory/keto?style=social&color=white)](https://github.com/ory/keto/stargazers) | Go | Apache-2.0 | Google Zanzibar ReBAC / RBAC Engine | Ultra-fast permission check validation within API performance and load testing pipelines. |
-| **[Cerbos](https://github.com/cerbos/cerbos)** | [![GitHub stars](https://img.shields.io/github/stars/cerbos/cerbos?style=social&color=white)](https://github.com/cerbos/cerbos/stargazers) | Go | Apache-2.0 | Stateless Context-Aware RBAC/ABAC | Running stateless test sidecars with dedicated unit-testing tools for permission policies. |
-| **[go-iam](https://github.com/melvinodsa/go-iam)** | [![GitHub stars](https://img.shields.io/github/stars/melvinodsa/go-iam?style=social&color=white)](https://github.com/melvinodsa/go-iam/stargazers) | Go, MongoDB, Redis, React | Apache-2.0 | Multi-tenant RBAC, OAuth2 Clients | Lightweight multi-tenant IAM mock server deployable via Docker Compose for rapid testing cycles. |
-| **[OpenRbac](https://github.com/raubinsharya/OpenRBAC)** | [![GitHub stars](https://img.shields.io/github/stars/raubinsharya/OpenRBAC?style=social&color=white)](https://github.com/raubinsharya/OpenRBAC/stargazers) | Python, SQLite/MySQL | Open Source | Data-scope RBAC, Unified CLI/Web verification | Lightweight standalone access verification tool for small QA labs without complex infrastructure. |
-| **[maintainerd/auth](https://github.com/maintainerd/maintainerd-auth)** | [![GitHub stars](https://img.shields.io/github/stars/maintainerd/maintainerd-auth?style=social&color=white)](https://github.com/maintainerd/maintainerd-auth/stargazers) | Go, PostgreSQL, Redis | Apache-2.0 | OIDC, WebAuthn MFA, Granular RBAC | Modern containerized identity stack with audit logging and secret management for test clusters. |
+### 📊 Open-Source Comparison (Sorted by Star Counts)
+
+| # | Project | GitHub Stars Badge | Language / Stack | License | Architecture Type | Dynamic Roles / ReBAC | Primary QA Use Case |
+|:---:|:---|:---:|:---|:---|:---|:---:|:---|
+| 1 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java / Quarkus | Apache-2.0 | Full IAM Server | ✅ Composite & Fine-Grained | Complete self-hosted test infrastructure SSO & user federation |
+| 2 | **[Authelia](https://github.com/authelia/authelia)** | [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) | Go / React | Apache-2.0 | Auth & Proxy Gate | ✅ Rule & Regex Based | Reverse-proxy authentication gating internal QA test servers |
+| 3 | **[Casbin](https://github.com/casbin/casbin)** | [![Stars](https://img.shields.io/github/stars/casbin/casbin?style=social&color=white)](https://github.com/casbin/casbin/stargazers) | Multi-Language (Go, Java, Python, Node, Rust) | Apache-2.0 | Embedded Library | ✅ Multi-model (ACL/RBAC/ABAC) | Model-driven access control embedded in custom QA internal tools |
+| 4 | **[Zitadel](https://github.com/zitadel/zitadel)** | [![Stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers) | Go / Angular | Apache-2.0 | Cloud-Native IAM | ✅ Multi-tenant Organizations | Multi-tenant QA test environments with instant organization isolation |
+| 5 | **[Casdoor](https://github.com/casdoor/casdoor)** | [![Stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers) | Go / React | Apache-2.0 | UI-First IAM Server | ✅ Casbin-backed Policies | Admin Web UI for configuring Casbin roles across QA services |
+| 6 | **[Ory Kratos](https://github.com/ory/kratos)** | [![Stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers) | Go | Apache-2.0 | Headless Identity | (Decoupled with Keto) | Headless identity management for custom QA portals and test harnesses |
+| 7 | **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Go / Rego | Apache-2.0 | Unified Policy Engine | ✅ Context-Aware Rego Policies | Microservice and Kubernetes admission authorization for test clusters |
+| 8 | **[OpenFGA](https://github.com/openfga/openfga)** | [![Stars](https://img.shields.io/github/stars/openfga/openfga?style=social&color=white)](https://github.com/openfga/openfga/stargazers) | Go | Apache-2.0 | Zanzibar FGA Engine | ✅ Relationship-Based (ReBAC) | Fine-grained object & project permission modeling for QA microservices |
+| 9 | **[Permify](https://github.com/Permify/permify)** | [![Stars](https://img.shields.io/github/stars/Permify/permify?style=social&color=white)](https://github.com/Permify/permify/stargazers) | Go | Apache-2.0 | Zanzibar Authorization | ✅ ReBAC / Tenancy Schemas | Rapid schema-based authorization checks for QA test pipelines |
+| 10 | **[Ory Keto](https://github.com/ory/keto)** | [![Stars](https://img.shields.io/github/stars/ory/keto?style=social&color=white)](https://github.com/ory/keto/stargazers) | Go | Apache-2.0 | Access Control Server | ✅ Zanzibar ACL / RBAC | Sub-millisecond permission checks for distributed testing suites |
+| 11 | **[Pomerium](https://github.com/pomerium/pomerium)** | [![Stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white)](https://github.com/pomerium/pomerium/stargazers) | Go | Apache-2.0 | Identity-Aware Proxy | ✅ Policy-driven Edge Proxy | Zero-trust gateway securing internal QA dashboards and staging URLs |
+| 12 | **[Cerbos](https://github.com/cerbos/cerbos)** | [![Stars](https://img.shields.io/github/stars/cerbos/cerbos?style=social&color=white)](https://github.com/cerbos/cerbos/stargazers) | Go | Apache-2.0 | Decoupled Policy Engine | ✅ YAML/JSON Resource Policies | Contextual authorization decisions decoupled from QA application code |
+| 13 | **[go-iam](https://github.com/shanept/go-iam)** | [![Stars](https://img.shields.io/github/stars/shanept/go-iam?style=social&color=white)](https://github.com/shanept/go-iam/stargazers) | Go / React / Mongo | Apache-2.0 | Lightweight IAM | ✅ Multi-tenant Projects | Minimalist self-hosted OAuth2/RBAC server for small test teams |
+| 14 | **[OpenRbac](https://github.com/openrbac/openrbac)** | [![Stars](https://img.shields.io/github/stars/openrbac/openrbac?style=social&color=white)](https://github.com/openrbac/openrbac/stargazers) | Python / SQLite | MIT | Standalone RBAC Server | ✅ Data Scope Control | Terminal & no-JS web UI for local and offline test lab configuration |
+| 15 | **[maintainerd/auth](https://github.com/maintainerd/maintainerd-auth)** | [![Stars](https://img.shields.io/github/stars/maintainerd/maintainerd-auth?style=social&color=white)](https://github.com/maintainerd/maintainerd-auth/stargazers) | Go / Postgres / Redis | Apache-2.0 | Modern Cloud IAM | ✅ Fine-grained Service RBAC | Modern developer IAM with WebAuthn and secret manager integrations |
 
 ---
 
-## 📊 Comparison Matrix at a Glance
+### 🛠️ Detailed Open-Source Showcase
 
-| System / Tool ⚙️ | Model Type 🏷️ | Deployment 🚀 | Project/Resource Scoping 🎯 | Dynamic / Attribute Roles ⚡ | Built-in Admin UI 🖥️ | Native QA Isolation 🧪 |
-|:---|:---|:---|:---:|:---:|:---:|:---:|
-| **Microsoft Entra ID** | Enterprise IAM | Cloud Hosted | ✅ Resource Targets | ✅ Group Rules | ✅ Yes | ✅ High |
-| **CyberArk Identity** | Enterprise IAM / PAM | Cloud Hosted | ✅ Scoped Roles | ✅ JavaScript Rules | ✅ Yes | ✅ High |
-| **Okta** | Enterprise IAM | Cloud Hosted | ✅ Resource Sets | ✅ Dynamic Groups | ✅ Yes | ✅ High |
-| **BrowserStack** | QA Platform RBAC | Cloud Hosted | ✅ Project API | 🔄 Team Inheritance | ✅ Yes | ✅ Purpose-Built |
-| **JumpCloud** | Directory & MDM | Cloud Hosted | ✅ Scoped Categories | ❌ Manual/Group | ✅ Yes | ✅ Medium |
-| **Auth0** | Developer IAM | Cloud Hosted / Private | ✅ API Scopes | ✅ Actions/Rules | ✅ Yes | ✅ High |
-| **OneLogin** | Enterprise IAM | Cloud Hosted | ✅ App Catalog | ✅ Directory Mappings | ✅ Yes | ✅ Medium |
-| **Keycloak** | Full Open-Source IAM | Self-Hosted | ✅ Realm / Client | ✅ Composite Roles | ✅ Yes | ✅ High |
-| **Authelia** | Forward-Auth SSO | Self-Hosted | ✅ URL / Network Rules | ✅ Rule Criteria | ✅ Yes | ✅ High |
-| **Casbin** | AuthZ Engine Library | Embedded / Self-Hosted| ✅ Model-Defined | ✅ Script Matchers | ❌ Library | ✅ Custom |
-| **ZITADEL** | Multi-Tenant IAM | Cloud / Self-Hosted | ✅ Org / Project Roles | ✅ Metadata Mappings | ✅ Yes | ✅ High |
-| **Casdoor** | Casbin Web Platform | Self-Hosted | ✅ Casbin Adapter | ✅ Casbin Engine | ✅ Yes | ✅ High |
-| **Open Policy Agent**| Policy Engine (Rego) | Embedded / Sidecar | ✅ Context-Dependent | ✅ Expressive Rego | ❌ Engine | ✅ High |
-| **OpenFGA / Permify**| Zanzibar ReBAC | Microservice / Docker | ✅ Relation Graphs | ✅ ReBAC / ABAC | ✅ Yes | ✅ High |
-| **Cerbos** | Stateless PDP | Sidecar / Container | ✅ Resource Policies | ✅ Condition Logic | ✅ Cerbos Hub | ✅ High |
-| **go-iam** | Multi-Tenant Server | Self-Hosted / Docker | ✅ Tenant Scoping | 🔄 Role Assignment | ✅ Yes | ✅ Medium |
-| **OpenRbac** | Terminal / Web Tool | Self-Hosted / CLI | ✅ Data Scope | ❌ Static Roles | ✅ Web + CLI | ✅ Low |
+#### 1. 👑 Keycloak [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)
+- **Repository:** [keycloak/keycloak](https://github.com/keycloak/keycloak)
+- **Stack & License:** Java / Quarkus • Apache-2.0
+- **Architectural Fit:** The industry standard for self-hosted enterprise identity. Keycloak features realm-level roles, client-level roles, composite roles, and fine-grained authorization services (evaluating resource, scope, policy, and permissions).
+- **QA Application:** Ideal for centralizing authentication across test environments, simulating enterprise LDAP/Active Directory hierarchies, and mocking multi-role test users.
+
+#### 2. 🛡️ Authelia [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)
+- **Repository:** [authelia/authelia](https://github.com/authelia/authelia)
+- **Stack & License:** Go / React • Apache-2.0
+- **Architectural Fit:** Companion authentication server that integrates directly with reverse proxies (Nginx, Traefik, Caddy, Envoy) to enforce 2FA and regex-based access control.
+- **QA Application:** Protect internal test staging servers, Selenium/Playwright grid dashboards, and Allure test reports behind lightweight single sign-on with role gating.
+
+#### 3. 🧩 Casbin [![Stars](https://img.shields.io/github/stars/casbin/casbin?style=social&color=white)](https://github.com/casbin/casbin/stargazers)
+- **Repository:** [casbin/casbin](https://github.com/casbin/casbin)
+- **Stack & License:** Multi-Language (Go, Java, Node.js, Python, Rust, C++) • Apache-2.0
+- **Architectural Fit:** High-performance embeddable authorization library supporting custom CONF model definitions (ACL, RBAC with role inheritance, ABAC, and RESTful route matching).
+- **QA Application:** Embed directly into QA microservices and custom test execution frameworks to enforce role-specific execution flags without maintaining an external auth server.
+
+#### 4. 🚀 Zitadel [![Stars](https://img.shields.io/github/stars/zitadel/zitadel)](https://github.com/zitadel/zitadel/stargazers)
+- **Repository:** [zitadel/zitadel](https://github.com/zitadel/zitadel)
+- **Stack & License:** Go / Angular / CockroachDB • Apache-2.0
+- **Architectural Fit:** Modern "cloud-native identity" built with event sourcing, first-class multi-tenancy, and turnkey B2B organization switching.
+- **QA Application:** Perfectly suited for QA environments testing multi-tenant SaaS applications requiring rapid teardown and spinning up of isolated test organizations.
+
+#### 5. 🖥️ Casdoor [![Stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)
+- **Repository:** [casdoor/casdoor](https://github.com/casdoor/casdoor)
+- **Stack & License:** Go / React • Apache-2.0
+- **Architectural Fit:** Web UI-first IAM platform built natively on top of Casbin. Provides user management, social logins, MFA, and permission visualizers in a clean dashboard.
+- **QA Application:** QA administrators get a self-service console to create ephemeral test roles, assign permissions, and verify access policies without hand-editing policy files.
+
+#### 6. 👤 Ory Kratos [![Stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)
+- **Repository:** [ory/kratos](https://github.com/ory/kratos)
+- **Stack & License:** Go • Apache-2.0
+- **Architectural Fit:** Headless identity and user management implementation adhering to cloud-native microservices principles (works seamlessly alongside Ory Hydra and Ory Keto).
+- **QA Application:** Test custom login/registration UX workflows without vendor-branded UI interference.
+
+#### 7. ⚖️ Open Policy Agent (OPA) [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
+- **Repository:** [open-policy-agent/opa](https://github.com/open-policy-agent/opa)
+- **Stack & License:** Go / Rego • Apache-2.0 (CNCF Graduated)
+- **Architectural Fit:** Declarative general-purpose policy engine that unifies policy enforcement across microservices, Kubernetes admission control, CI/CD pipelines, and API gateways.
+- **QA Application:** Validates whether test execution workloads comply with company security policies before dispatching jobs onto staging Kubernetes clusters.
+
+#### 8. 🌐 OpenFGA [![Stars](https://img.shields.io/github/stars/openfga/openfga?style=social&color=white)](https://github.com/openfga/openfga/stargazers)
+- **Repository:** [openfga/openfga](https://github.com/openfga/openfga)
+- **Stack & License:** Go • Apache-2.0 (CNCF Sandbox)
+- **Architectural Fit:** Flexible, high-performance Fine-Grained Authorization system modeled after Google Zanzibar. Supports Relationship-Based Access Control (ReBAC) at massive scale.
+- **QA Application:** Model complex test suite permissions where testers have permissions derived from parent projects, squads, and individual feature-flag assignments.
+
+#### 9. ⚡ Permify [![Stars](https://img.shields.io/github/stars/Permify/permify?style=social&color=white)](https://github.com/Permify/permify/stargazers)
+- **Repository:** [Permify/permify](https://github.com/Permify/permify)
+- **Stack & License:** Go • Apache-2.0
+- **Architectural Fit:** Open-source authorization engine designed to model complex authorization hierarchies, roles, and permissions using human-readable domain-specific schemas.
+- **QA Application:** Rapidly mock complex enterprise permission trees during end-to-end integration testing.
+
+#### 10. 🔒 Ory Keto [![Stars](https://img.shields.io/github/stars/ory/keto?style=social&color=white)](https://github.com/ory/keto/stargazers)
+- **Repository:** [ory/keto](https://github.com/ory/keto)
+- **Stack & License:** Go • Apache-2.0
+- **Architectural Fit:** Google Zanzibar-inspired Access Control List (ACL) and authorization server offering sub-millisecond gRPC check endpoints.
+- **QA Application:** High-speed authorization checks for high-throughput load and stress testing environments.
+
+#### 11. 🚪 Pomerium [![Stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white)](https://github.com/pomerium/pomerium/stargazers)
+- **Repository:** [pomerium/pomerium](https://github.com/pomerium/pomerium)
+- **Stack & License:** Go / Envoy • Apache-2.0
+- **Architectural Fit:** Context-aware reverse proxy and identity-aware proxy (IAP) enforcing zero-trust access to web apps and APIs based on user identity and device posture.
+- **QA Application:** Restrict staging servers and test lab device grids so only authenticated QA engineers with valid role tokens can trigger executions.
+
+#### 12. 📦 Cerbos [![Stars](https://img.shields.io/github/stars/cerbos/cerbos?style=social&color=white)](https://github.com/cerbos/cerbos/stargazers)
+- **Repository:** [cerbos/cerbos](https://github.com/cerbos/cerbos)
+- **Stack & License:** Go • Apache-2.0
+- **Architectural Fit:** Language-agnostic, decoupled authorization policy engine that evaluates context-aware access rules written in clear YAML files.
+- **QA Application:** Centralize all QA testing access rules into Git-tracked YAML files, enabling pull-request reviews on test permission changes.
+
+---
+
+## 🎯 QA Team Architectural Decision Framework
+
+When selecting an RBAC or IAM solution for your QA organization, consider which layer of the testing stack requires governance:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        QA ACCESS ARCHITECTURE                          │
+├────────────────────────────────┬───────────────────────────────────────┤
+│ 1. Enterprise SSO & Workforce  │ Microsoft Entra ID, Okta, OneLogin    │
+│    (Login to Test Suites)      │ Keycloak, Zitadel, Authelia           │
+├────────────────────────────────┼───────────────────────────────────────┤
+│ 2. Test Cloud & Lab Isolation  │ BrowserStack Project API, JumpCloud   │
+│    (Device & Pod Boundaries)   │ Pomerium Zero-Trust Gateway           │
+├────────────────────────────────┼───────────────────────────────────────┤
+│ 3. API & Microservice Tokens   │ Auth0, Ory Kratos, CyberArk           │
+│    (Automated Bot Execution)   │ Open Policy Agent (OPA)               │
+├────────────────────────────────┼───────────────────────────────────────┤
+│ 4. Granular In-App Permissions │ OpenFGA, Casbin, Permify,             │
+│    (Fine-Grained ReBAC/RBAC)   │ Ory Keto, Cerbos                      │
+└────────────────────────────────┴───────────────────────────────────────┘
+```
+
+1. **Test Infrastructure & Cloud Devices:** If managing shared browser grids or mobile device clouds, choose platforms providing **native project-scoped role inheritance** like [BrowserStack](https://www.browserstack.com/) or device-level access control like [JumpCloud](https://jumpcloud.com/).
+2. **Self-Hosted Enterprise Baseline:** If on-premise data residency and zero license cost are critical, deploy [Keycloak](https://github.com/keycloak/keycloak) or [Zitadel](https://github.com/zitadel/zitadel) with OpenID Connect.
+3. **Application & Microservice Code:** If embedding access control checks directly into QA automated suites or mock test harnesses, embed [Casbin](https://github.com/casbin/casbin) or evaluate policies via [OpenFGA](https://github.com/openfga/openfga) / [Cerbos](https://github.com/cerbos/cerbos).
+
+---
+
+## 🤝 Contributing
+
+Contributions are warmly encouraged! If you know of an outstanding open-source access control library or QA-focused identity platform:
+
+1. Check our [Awesome List Index](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+2. Fork this repository and create your feature branch (`git checkout -b feature/new-rbac-tool`).
+3. Ensure the project is actively maintained (commits within the last 12 months) and clearly open-source.
+4. Submit a Pull Request detailing the project name, star count, stack, and why QA teams benefit.
+
+---
+
+## 💖 Support & Sponsoring
+
+A huge thank you to everyone exploring, evaluating, and contributing to this curated repository! If you find this directory valuable for your QA workflows, security engineering, or access control architecture:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork the repo** to contribute new tools or adapt it for your team.
+- 📢 **Share** with your fellow QA engineers, DevOps leads, and security architects.
+- ☕ **Buy a coffee / Sponsor the project**: Support ongoing maintenance and curated open-source research directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
@@ -149,30 +261,12 @@ Self-hosted and community-driven access control solutions, authorization engines
 
 ---
 
-## 💖 Support
-
-If you find this repository valuable for organizing and securing your QA environments, testing pipelines, and access architecture, consider showing your support:
-
-- 🌟 **Star this repository** to help others discover it on GitHub!
-- 🍴 **Fork the repo** to contribute new tools or maintain your customized bookmarks.
-- 📢 **Share with colleagues** in the software testing, security, and DevOps communities.
-- ☕ **Sponsor or buy a coffee** to fuel continuous updates: [**Sponsor ishandutta2007 on GitHub Sponsors**](https://github.com/sponsors/ishandutta2007)
-
----
-
-## 🤝 Contributing
-
-Contributions are warmly welcome! If you know of an open-source authorization library, QA-specific permission management system, or cloud IAM tool that should be listed here:
-
-1. Fork this repository.
-2. Add your tool to the relevant section (maintain ascending/descending sorting rules where applicable).
-3. Ensure links, licenses, and technical details are verified and accurate.
-4. Submit a Pull Request with a short summary of the addition.
-
-Please refer to the comprehensive [Awesome Directory](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated software lists.
-
----
-
 ## 📄 License
 
-This compilation is licensed under the [Creative Commons Zero v1.0 Universal (CC0-1.0)](https://creativecommons.org/publicdomain/zero/1.0/). Listed software tools, brand names, and trademarks belong to their respective copyright holders.
+This compilation is licensed under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/). Listed software tools, brand names, and trademarks belong to their respective copyright holders.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for Quality Assurance & Security Engineering Teams worldwide.</b>
+</p>
