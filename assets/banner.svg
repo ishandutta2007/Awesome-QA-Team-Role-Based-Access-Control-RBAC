@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1035" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .sub-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+    .pill {
+      rx: 14px;
+      fill: #1e293b;
+      stroke: #334155;
+      stroke-width: 1.5;
+    }
+    .orb {
+      filter: blur(40px);
+      opacity: 0.45;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.08); }
+    }
+    @keyframes floatOrb1 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(30px, -20px); }
+    }
+    @keyframes floatOrb2 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-25px, 25px); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -40; }
+    }
+    .anim-pulse {
+      animation: pulseGlow 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .anim-orb1 {
+      animation: floatOrb1 10s ease-in-out infinite;
+    }
+    .anim-orb2 {
+      animation: floatOrb2 12s ease-in-out infinite;
+    }
+    .anim-line {
+      stroke-dasharray: 8, 8;
+      animation: dash 3s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" fill="url(#grid)" />
+
+  <!-- Animated Background Ambient Glows (Behind all foreground text) -->
+  <g class="anim-orb1">
+    <circle cx="150" cy="80" r="140" fill="#38bdf8" class="orb" />
+  </g>
+  <g class="anim-orb2">
+    <circle cx="1050" cy="280" r="160" fill="#818cf8" class="orb" />
+    <circle cx="950" cy="100" r="120" fill="#c084fc" class="orb" />
+  </g>
+
+  <!-- Dynamic Security & Access Circuit Lines (Left and Right Accent Background) -->
+  <g opacity="0.25">
+    <path d="M 50 180 H 220 L 260 220 H 340" fill="none" stroke="#38bdf8" stroke-width="2" class="anim-line" />
+    <circle cx="340" cy="220" r="4" fill="#38bdf8" />
+    <path d="M 860 140 H 940 L 980 180 H 1150" fill="none" stroke="#a855f7" stroke-width="2" class="anim-line" />
+    <circle cx="860" cy="140" r="4" fill="#a855f7" />
+  </g>
+
+  <!-- Decorative Shield Icon Frame (Right Side) -->
+  <g transform="translate(980, 80)" class="anim-pulse" opacity="0.85">
+    <polygon points="60,10 110,35 110,110 60,150 10,110 10,35" fill="none" stroke="url(#primaryGlow)" stroke-width="3" filter="url(#glow)"/>
+    <!-- Lock Body -->
+    <rect x="42" y="70" width="36" height="30" rx="4" fill="url(#shieldGrad)" />
+    <!-- Lock Shackle -->
+    <path d="M 48 70 V 55 A 12 12 0 0 1 72 55 V 70" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" />
+    <!-- Keyhole -->
+    <circle cx="60" cy="82" r="3" fill="#0f172a" />
+    <path d="M 60 85 V 93" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- FOREGROUND CONTENT: Safe from any overlap -->
+  <g transform="translate(80, 0)">
+    <!-- Top Category Tag -->
+    <g transform="translate(0, 58)">
+      <rect x="0" y="0" width="220" height="28" class="pill" />
+      <circle cx="16" cy="14" r="5" fill="#38bdf8" />
+      <text x="30" y="19" class="badge-text">🛡️ ENTERPRISE SECURITY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="135" class="title-text">
+      QA Team <tspan fill="url(#primaryGlow)">Role-Based Access Control</tspan>
+    </text>
+
+    <!-- Subtitle / Meta Description -->
+    <text x="0" y="180" class="sub-text">
+      Curated Directory of Identity &amp; Access Management (IAM), RBAC Platforms, &amp; Open-Source Engines
+    </text>
+
+    <!-- Feature Tag Pills -->
+    <g transform="translate(0, 225)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="160" height="36" rx="18" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+        <text x="24" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#93c5fd">🔐 Granular RBAC</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(175, 0)">
+        <rect x="0" y="0" width="180" height="36" rx="18" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" />
+        <text x="20" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#c4b5fd">🧪 QA Team Isolation</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(370, 0)">
+        <rect x="0" y="0" width="185" height="36" rx="18" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5" />
+        <text x="20" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#67e8f9">🌐 SaaS &amp; Open-Source</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(570, 0)">
+        <rect x="0" y="0" width="170" height="36" rx="18" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+        <text x="20" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#6ee7b7">⚡ Least Privilege</text>
+      </g>
+    </g>
+
+    <!-- Bottom Decorative Highlight Bar -->
+    <rect x="0" y="300" width="850" height="3" rx="1.5" fill="url(#primaryGlow)" opacity="0.8" />
+  </g>
+</svg>
