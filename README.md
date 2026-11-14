@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-QA-Team-Role-Based-Access-Control-RBAC/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
@@ -28,7 +28,7 @@
   - [🏢 Enterprise SaaS Matrix (Sorted by Valuation & Revenue)](#-enterprise-saas-matrix-sorted-by-valuation--revenue)
   - [🔍 Deep-Dive SaaS Breakdown](#-deep-dive-saas-breakdown)
 - [🟩 Open-Source Software](#-open-source-software)
-  - [📊 Open-Source Comparison (Sorted by Star Counts)](#-open-source-comparison-sorted-by-star-counts)
+  - [📊 Open-Source Comparison (Sorted by Stars_Counts)](#-open-source-comparison-sorted-by-star-counts)
   - [🛠️ Detailed Open-Source Showcase](#-detailed-open-source-showcase)
 - [🎯 QA Team Architectural Decision Framework](#-qa-team-architectural-decision-framework)
 - [🤝 Contributing](#-contributing)
@@ -107,9 +107,9 @@ Commercial, cloud-hosted RBAC and Identity platforms enabling rapid onboarding, 
 
 Self-hosted, transparent, and community-audited authorization frameworks. These tools span **full IAM platforms with SSO federation**, **high-speed policy engines (FGA/Zanzibar)**, **reverse proxies**, and **embeddable access libraries**.
 
-### 📊 Open-Source Comparison (Sorted by Star Counts)
+### 📊 Open-Source Comparison (Sorted by Stars_Counts)
 
-| # | Project | GitHub Stars Badge | Language / Stack | License | Architecture Type | Dynamic Roles / ReBAC | Primary QA Use Case |
+| # | Project | GitHub_Stars_Badge | Language / Stack | License | Architecture Type | Dynamic Roles / ReBAC | Primary QA Use Case |
 |:---:|:---|:---:|:---|:---|:---|:---:|:---|
 | 1 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java / Quarkus | Apache-2.0 | Full IAM Server | ✅ Composite & Fine-Grained | Complete self-hosted test infrastructure SSO & user federation |
 | 2 | **[Authelia](https://github.com/authelia/authelia)** | [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) | Go / React | Apache-2.0 | Auth & Proxy Gate | ✅ Rule & Regex Based | Reverse-proxy authentication gating internal QA test servers |
@@ -240,7 +240,7 @@ Contributions are warmly encouraged! If you know of an outstanding open-source a
 1. Check our [Awesome List Index](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
 2. Fork this repository and create your feature branch (`git checkout -b feature/new-rbac-tool`).
 3. Ensure the project is actively maintained (commits within the last 12 months) and clearly open-source.
-4. Submit a Pull Request detailing the project name, star count, stack, and why QA teams benefit.
+4. Submit a Pull Request detailing the project name, Stars_Count, stack, and why QA teams benefit.
 
 ---
 
